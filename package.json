@@ -63,7 +63,7 @@
 		"@repobuddy/biome": "^2.3.1",
 		"@types/fbemitter": "^2.0.35",
 		"@types/node": "^26.4.0",
-		"@vitest/coverage-v8": "^4.1.11",
+		"@vitest/coverage-v8": "^5.0.0",
 		"depcheck": "^1.4.7",
 		"eventemitter2": "^6.4.9",
 		"eventemitter3": "^5.0.4",
@@ -75,7 +75,7 @@
 		"tsdown": "^0.23.0",
 		"typedoc": "^0.28.20",
 		"typescript": "^7.0.0",
-		"vitest": "^4.1.11"
+		"vitest": "^5.0.0"
 	},
 	"packageManager": "pnpm@12.8.2"
 }
