@@ -29,7 +29,8 @@
 		"ts",
 		"!*/trapErrorTest.*",
 		"!**/*.spec.*",
-		"!**/*.spec16.*"
+		"!**/*.spec16.*",
+		"CHANGELOG.md"
 	],
 	"scripts": {
 		"build": "tsdown",
