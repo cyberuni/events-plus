@@ -1,5 +1,11 @@
 # @unional/events-plus
 
+## 4.0.1
+
+### Patch Changes
+
+- ec18884: Include `CHANGELOG.md` in the published package.
+
 ## 4.0.0
 
 ### Major Changes
