@@ -5,13 +5,13 @@ on:
 
 jobs:
   code:
-    uses: cyberuni/.github/.github/workflows/pnpm-verify.yml@main
+    uses: repobuddy/.github/.github/workflows/pnpm-verify.yml@v2
     with:
       os: '["ubuntu-latest"]'
       skip-playwright: true
 
   release:
-    uses: cyberuni/.github/.github/workflows/pnpm-release-changeset-oidc.yml@main
+    uses: repobuddy/.github/.github/workflows/pnpm-release-changeset-oidc.yml@v2
     needs: code
     permissions:
       id-token: write
@@ -20,7 +20,7 @@ jobs:
 
   docgen:
     if: github.ref == 'refs/heads/main'
-    uses: cyberuni/.github/.github/workflows/pnpm-docs.yml@main
+    uses: repobuddy/.github/.github/workflows/pnpm-docs.yml@v2
     needs: release
     # It pushes the built docs to gh-pages with GITHUB_TOKEN.
     permissions:
